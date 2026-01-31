@@ -6,6 +6,7 @@ This repo is designed for our team to **collaborate on Jupyter notebooks** for o
 
 ## **Repository Structure**
 
+```
 BME133/
 │
 ├── notebooks/ # Jupyter notebooks (.ipynb) for each lab
@@ -18,7 +19,7 @@ BME133/
 │
 ├── README.md
 └── .gitignore
-
+```
 
 ---
 
