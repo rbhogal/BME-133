@@ -9,7 +9,7 @@ This repo is designed for our team to **collaborate on Jupyter notebooks** for o
 ```
 BME133/
 │
-├── notebooks/ # Jupyter notebooks (.ipynb) for each lab
+├── lab-notebooks/ # Jupyter notebooks (.ipynb) for each lab
 │ ├── Lab0.ipynb
 │ ├── Lab1.ipynb
 │
