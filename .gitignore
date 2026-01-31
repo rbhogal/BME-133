@@ -1,5 +1,2 @@
 # Ignore exported files
-outputs/
-*.pdf
-*.html
 *.py
