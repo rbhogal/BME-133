@@ -72,8 +72,8 @@ cd BME-133
 
 ### **Step 1: Navigate to your project folder**
 
-```
-cd <path>/BME-133
+```bash
+cd path/to/BME-133
 ```
 
 * Replace `path/to/BME-133` with the actual path to your project folder.
