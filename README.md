@@ -47,7 +47,7 @@ lab_<number>_exercise_<number>
 
 Open VS Code terminal or any terminal, then navigate to your desired folder:
 
-```bash
+```
 cd ~/<folder-name>
 ```
 
@@ -56,7 +56,7 @@ cd ~/<folder-name>
 
 ### **Step 2: Clone the repository**
 
-```bash
+```
 git clone https://github.com/yourusername/BME-133.git
 cd BME-133
 ```
@@ -72,7 +72,7 @@ cd BME-133
 
 ### **Step 1: Navigate to your project folder**
 
-```bash
+```
 cd <path>/BME-133
 ```
 
