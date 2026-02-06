@@ -64,7 +64,6 @@ Here’s a quick guide to all the Git commands we’ll be using:
 ## **Tips for Working with Jupyter Notebooks**
 
 - Try to **commit changes frequently**—small commits are easier to merge.
-- Keep exercises in **separate notebooks** if possible to avoid merge conflicts.
 - Avoid editing the same cell at the same time as someone else in your branch.
 - Use `.gitignore` to **exclude exported PDFs and HTML files**:
 
