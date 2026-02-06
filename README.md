@@ -48,10 +48,10 @@ lab_<number>_exercise_<number>
 Open VS Code terminal or any terminal, then navigate to your desired folder:
 
 ```bash
-cd ~/folder-name
+cd ~/<folder-name>
 ```
 
-* Replace `~/folder-name` with wherever you want to store the project.
+* Replace `~/<folder-name>` with wherever you want to store the project.
 * Common locations: `~/repos` or `~/projects`
 
 ### **Step 2: Clone the repository**
