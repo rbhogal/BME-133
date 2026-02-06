@@ -16,9 +16,9 @@ BME-133/
 │   ├── Lab0.ipynb
 │   ├── Lab1.ipynb
 │
-├── outputs/             # Optional: PDFs, HTML exports
-│   ├── pdf/
-│   └── html/
+├── exports/             # Optional: PDFs, HTML exports
+│   ├── Lab0.pdf
+│   └── Lab0.html
 │
 ├── README.md
 └── .gitignore
