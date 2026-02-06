@@ -1,3 +1,6 @@
+![Alt text](./SJSU_Primary_mark_Web.png)
+
+
 # BME-133 Lab
 
 This repo is designed for our team to **collaborate on Jupyter notebooks** for our lab exercises. Each team member will work on their own branch and push changes to GitHub so we can all stay in sync.
