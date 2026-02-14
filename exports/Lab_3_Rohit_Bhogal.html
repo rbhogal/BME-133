@@ -8174,7 +8174,7 @@ Making an appointment between Drake Ramoray and Jane
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Exercise-1">Exercise 1<a class="anchor-link" href="#Exercise-1">¶</a></h3><p>Create a new function to make appointment between a patient and a doctor. The function should have four paramters: the patients name, a list of intergers corresponding to the patient's available hours, the doctor's name and a list of integers corresponding to the doctor's available times. For simplicity the available hours are a subset of {9,10,11,12,13,14,15,16,17}, i.e. 9 to 5 in military time and that the appointment blocks are an hour long. In the function body, check if the patient and doctor have a common hour. If they do, print a statement saying "Booking at time x between patient p and doctor d", where x is the common hour, p is the patient name and d is the doctor's name. After printing, return 0 to indicate success. Otherwise print a statement saying "Common time is not available for patient p and doctor d", where p is the patient's name and d is the doctor's name. Also return a value of 1 indicating failure. (Hint: you might need to loop through the available times of both.) Test your function by calling the function once with a patient and a doctor which have a common time and another time by calling the function with a patient and a doctor that do NOT have a common time.</p>
+<h3 id="Exercise-1">Exercise 1<a class="anchor-link" href="#Exercise-1">¶</a></h3><p>Create a new function to make appointment between a patient and a doctor. The function should have four paramters: the patients name, a list of integers corresponding to the patient's available hours, the doctor's name and a list of integers corresponding to the doctor's available times. For simplicity the available hours are a subset of {9,10,11,12,13,14,15,16,17}, i.e. 9 to 5 in military time and that the appointment blocks are an hour long. In the function body, check if the patient and doctor have a common hour. If they do, print a statement saying "Booking at time x between patient p and doctor d", where x is the common hour, p is the patient name and d is the doctor's name. After printing, return 0 to indicate success. Otherwise print a statement saying "Common time is not available for patient p and doctor d", where p is the patient's name and d is the doctor's name. Also return a value of 1 indicating failure. (Hint: you might need to loop through the available times of both.) Test your function by calling the function once with a patient and a doctor which have a common time and another time by calling the function with a patient and a doctor that do NOT have a common time.</p>
 </div>
 </div>
 </div>
@@ -8217,7 +8217,7 @@ Making an appointment between Drake Ramoray and Jane
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [69]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Create a func with four params (patient's name, patient avail hours, doc's name, and his avail hours)</span>
@@ -8235,9 +8235,10 @@ Making an appointment between Drake Ramoray and Jane
 
     <span class="k">if</span> <span class="n">common_hour</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Booking at time </span><span class="si">{</span><span class="n">common_hour</span><span class="si">}</span><span class="s2"> between patient </span><span class="si">{</span><span class="n">patient_name</span><span class="si">}</span><span class="s2"> and doctor </span><span class="si">{</span><span class="n">doc_name</span><span class="si">}</span><span class="s2">."</span><span class="p">)</span>
+        <span class="k">return</span> <span class="mi">0</span>
     <span class="k">else</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Common time is not available for patient </span><span class="si">{</span><span class="n">patient_name</span><span class="si">}</span><span class="s2"> and doctor </span><span class="si">{</span><span class="n">doc_name</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-
+        <span class="k">return</span> <span class="mi">1</span>
 
 
 <span class="n">make_appointment</span><span class="p">(</span><span class="s1">'Dania'</span><span class="p">,</span> <span class="p">[</span><span class="mi">9</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">11</span><span class="p">,</span><span class="mi">12</span><span class="p">,</span><span class="mi">13</span><span class="p">,</span><span class="mi">14</span><span class="p">],</span> <span class="s1">'Dr.Pepper'</span><span class="p">,</span> <span class="p">[</span><span class="mi">14</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">17</span><span class="p">])</span>
@@ -8259,6 +8260,12 @@ Common time is not available for patient Dania and doctor Dr.Pepper
 </pre>
 </div>
 </div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[69]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>1</pre>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -8277,11 +8284,10 @@ Common time is not available for patient Dania and doctor Dr.Pepper
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [41]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">bacteria_growth</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-
     <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
         <span class="k">return</span> <span class="mi">1</span>
     <span class="k">else</span><span class="p">:</span>
@@ -8298,7 +8304,7 @@ Common time is not available for patient Dania and doctor Dr.Pepper
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[41]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
 <pre>512</pre>
 </div>
