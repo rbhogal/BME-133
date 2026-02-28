@@ -1,0 +1,4 @@
+FDA Product Code,Product Code Name,Regulation Number,Device,Regulatory Class,Life Sustaining,Implant
+BSK,CUFF,868.5750,2,Y,N
+BSZ,GAS-MACHINE,868.5160,2,Y,N
+BTL,VENTILATOR,868.5925,2,Y,N
