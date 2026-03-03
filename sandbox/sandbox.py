@@ -43,26 +43,31 @@ devices = []  # list of Device objects
 for device in init_devices:
     # create a Device
     # remove newline, split by comma
-    device_fields = device.strip().split(",")
+    device_values = device.strip().split(",")
 
     # spread the list of device fields into the params of Device class
     # append new device to the devices list
 
     new_device = Device(
-        fda_product_code=device_fields[0],
-        product_code_name=device_fields[1],
-        regulation_number=device_fields[2],
-        device_regulatory_class=device_fields[3],
-        life_sustaining=device_fields[4],
-        implant=device_fields[5],
+        fda_product_code=device_values[0],
+        product_code_name=device_values[1],
+        regulation_number=device_values[2],
+        device_regulatory_class=device_values[3],
+        life_sustaining=device_values[4],
+        implant=device_values[5],
     )
     # NOTE: alternatively use unpacking '*'
-    # new_device = Device(*device_fields)
+    # new_device = Device(*device_values)
 
     devices.append(new_device)
     # test device
     print(new_device.is_implant())
 
+# if testing outside of function
+print('(Testing outside function)')
+for device in devices:
+    print(device.is_implant())
+    
 # add third device
 devices.append(Device("BTL", "VENTILATOR", "868.5925", "2", "Y", "N"))
 
