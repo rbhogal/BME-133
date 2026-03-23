@@ -1,0 +1,13 @@
+,Case_ID,State,Age,Exposure_Source,Bacterial_Load_CFU,Hospitalized,Symptom_Onset_Day
+0,101,CA,24,Packaged Salad,1200,Yes,1
+1,102,CA,45,Packaged Salad,1500,Yes,2
+2,103,NV,33,Restaurant Salad,800,No,2
+3,104,NV,51,Packaged Salad,2000,Yes,3
+4,105,OR,29,Restaurant Salad,900,No,4
+5,106,OR,62,Packaged Salad,2400,Yes,4
+6,107,WA,40,Restaurant Salad,1100,No,5
+7,108,WA,36,Packaged Salad,1300,No,5
+8,109,CA,55,Restaurant Salad,1750,Yes,6
+9,110,NV,22,Packaged Salad,950,No,7
+10,111,OR,47,Restaurant Salad,1400,Yes,7
+11,112,WA,31,Packaged Salad,1000,No,8
