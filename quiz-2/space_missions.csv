@@ -1,0 +1,16 @@
+Mission_Name,Planet,Duration_Days,Rover_Data_GB,Crew_Size
+Ares-1,Mars,120,650.0,6
+Luna-Base,Earth-Moon,90,300.0,4
+Titan-Explorer,Titan,180,820.0,5
+Europa-Drill,Europa,150,490.0,3
+Venus-Probe,Venus,60,200.0,0
+Kepler-Outpost,Mars,200,910.0,8
+Mercury-Survey,Mercury,75,450.0,2
+Neptune-Observer,Neptune,300,1200.0,7
+Pluto-Flyby,Pluto,400,,0
+Ceres-Miner,Ceres,130,510.0,4
+Ganymede-Station,Ganymede,170,700.0,6
+Io-Volcano,Io,110,480.0,3
+Saturn-Rings,Saturn,220,850.0,5
+Uranus-Orbiter,Uranus,260,430.0,4
+Mars-Delta,Mars,140,600.0,6
