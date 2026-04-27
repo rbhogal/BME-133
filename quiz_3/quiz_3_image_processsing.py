@@ -14,7 +14,6 @@ plt.show()
 # 4) Convert to grayscale
 gray = skimage.color.rgb2gray(image)  #
 
-print(gray)
 # 5) Display gray image
 plt.imshow(gray, cmap="gray")
 plt.show()
